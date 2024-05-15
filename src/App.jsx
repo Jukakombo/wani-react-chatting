@@ -9,7 +9,7 @@ const App = () => {
       <BrowserRouter>
         <AuthProvider>
           <Routes>
-            <Route path="/chats" element={<Chats />} />
+            <Route path="/chats" element={<Chats />} /> 
             <Route path="/" element={<Login />} />
           </Routes>
         </AuthProvider>
